@@ -131,6 +131,7 @@ path.current-floor {
   align-items: center;
 }
 .modal-dialog {
+  position: relative;
   max-width: 1000px;
   min-height: 565px;
   background-color: #fff;
@@ -169,4 +170,23 @@ path.current-floor {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
+}
+.flat-link:hover {
+  color: #3596f5;
+  text-decoration: underline;
+}
+.modal-alert {
+  margin-top: 56px;
+  color: #635854;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: italic;
+  font-weight: normal;
+}
+.modal-close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  border: none;
 }
